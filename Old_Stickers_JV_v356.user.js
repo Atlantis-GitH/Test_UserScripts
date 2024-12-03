@@ -12,7 +12,7 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/tipso/1.0.8/tipso.min.js
 // @grant        GM_addStyle
-// @version      0.4.3.v355
+// @version      0.4.3.v356
 // @icon         https://image.jeuxvideo.com/stickers/p/1jnh
 // @license      MIT
 // ==/UserScript==
@@ -267,7 +267,7 @@ Code de base par ImThatGuy (2018-2020)
                 $(this).addClass("active");
                 $(".new-stickers#"+currentDiv).show(80);
                 $(".new-stickers").css("overflow", "auto");
-            }, 100);
+            }, 0);
         }
     });
 
