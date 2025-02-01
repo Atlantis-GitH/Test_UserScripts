@@ -4,7 +4,7 @@
 // @author         Blaff
 // @namespace      JVChatPremium
 // @license        MIT
-// @version        0.1.107
+// @version        0.1.108
 // @match          http://*.jeuxvideo.com/forums/42-*
 // @match          https://*.jeuxvideo.com/forums/42-*
 // @match          http://*.jeuxvideo.com/forums/1-*
@@ -597,7 +597,7 @@ hr.jvchat-ruler:first-of-type {
     min-height: 40px;
     width: 40px;
     height: 40px;
-    box-shadow: -3px 3px 7px grey;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.45);
 }
 
 #jvchat-user-avatar-link {
@@ -834,7 +834,7 @@ hr.jvchat-ruler:first-of-type {
     height: 22px;
     background-color: #fff;
     border-radius: 11px;
-    box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
     transform: translate3d(2px, 2px, 0);
     transition: all 0.2s ease-in-out;
 }
